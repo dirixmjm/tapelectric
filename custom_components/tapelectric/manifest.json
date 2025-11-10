@@ -1,12 +1,12 @@
 {
-  "domain": "integration_blueprint",
-  "name": "Integration blueprint",
+  "domain": "tapelectric",
+  "name": "TAP Electric",
   "codeowners": [
-    "@ludeeus"
+    "@dirixmjm"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/ludeeus/integration_blueprint",
+  "documentation": "https://github.com/dirixmjm/tapelectric",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/ludeeus/integration_blueprint/issues",
+  "issue_tracker": "https://github.com/dirixmjm/tapelectric/issues",
   "version": "0.1.0"
 }

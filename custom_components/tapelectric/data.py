@@ -1,4 +1,4 @@
-"""Custom types for integration_blueprint."""
+"""Custom types for tapelectric."""
 
 from __future__ import annotations
 
@@ -9,17 +9,17 @@ if TYPE_CHECKING:
     from homeassistant.config_entries import ConfigEntry
     from homeassistant.loader import Integration
 
-    from .api import IntegrationBlueprintApiClient
-    from .coordinator import BlueprintDataUpdateCoordinator
+    from .api import IntegrationTAPElectricApiClient
+    from .coordinator import TAPElectricDataUpdateCoordinator
 
 
-type IntegrationBlueprintConfigEntry = ConfigEntry[IntegrationBlueprintData]
+type IntegrationTAPElectricConfigEntry = ConfigEntry[IntegrationTAPElectricData]
 
 
 @dataclass
-class IntegrationBlueprintData:
-    """Data for the Blueprint integration."""
+class IntegrationTAPElectricData:
+    """Data for the TAPElectric integration."""
 
-    client: IntegrationBlueprintApiClient
-    coordinator: BlueprintDataUpdateCoordinator
+    client: IntegrationTAPElectricApiClient
+    coordinator: TAPElectricDataUpdateCoordinator
     integration: Integration
