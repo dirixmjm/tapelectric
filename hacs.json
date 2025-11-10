@@ -1,5 +1,5 @@
 {
     "name": "TAP Electric",
     "homeassistant": "2025.11.1",
-    "render_readme": true,
+    "render_readme": true
 }
